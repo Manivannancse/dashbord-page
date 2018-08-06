@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Data table</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <style type="text/css">
+    .row{
+      margin-left: unset;
+      margin-right: unset;
+    }
+    .align-middle{
+      margin-top: 15%;
+      background-color: white;
+      border: 1px solid #ccc;
+      padding: 20px;
+    }
+    #background {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 45%;
+      background-color: #1a1f02; 
+    }
+    .btn-green{
+      background-color: #1a1f02;
+      color: white;
+      font-weight: bold;
+    }
+    .login-page-header{
+      position: absolute;
+      margin-top: 9%;
+      margin-left: 31%;
+    }
+    h3{
+      color: #fff;
+      font-weight: bolder;
+    }
+    .pos-absolute{
+      position: absolute;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="row" id="background">
+    <div class="col-sm-12">
+      <div class="col-sm-2 pos-absolute">
+        <h3>Logo</h3>
+      </div>
+      <div class="col-sm-4 col-sm-offset-4 login-page-header text-center">
+        <h3>Corporate Activity Tracker</h3>
+      </div>
+    </div>
+    <div class="col-sm-4 col-sm-offset-4 align-middle">
+      <form action="/action_page.php">
+        <div class="form-group">
+          <label for="email">User Name</label>
+          <input type="text" class="form-control" id="text">
+        </div>
+        <div class="form-group">
+          <label for="pwd">Password:</label>
+          <input type="password" class="form-control" id="pwd">
+        </div>
+        <div class="checkbox">
+          <label><input type="checkbox"> Remember me</label>
+        </div>
+        <button type="submit" class="btn btn-default btn-block btn-green">Submit</button>
+      </form>
+    </div>
+    <div class="col-sm-4 col-sm-offset-4 text-center">
+      <br>
+      <p>@ 2018 Copy Rights Recerved</p>
+    </div>
+  </div>
+</body>
+
+</html>
